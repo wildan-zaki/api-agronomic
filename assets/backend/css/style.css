@@ -1,0 +1,82 @@
+/* CSS Document */
+#map {
+	height: 400px;
+	width: 100%;
+}
+.controls {
+	margin-top: 16px;
+	border: 1px solid transparent;
+	border-radius: 2px 0 0 2px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	height: 32px;
+	outline: none;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#pac-input {
+	background-color: #fff;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300;
+	margin-left: 12px;
+	padding: 0 11px 0 13px;
+	text-overflow: ellipsis;
+	width: 400px;
+}
+
+#pac-input:focus {
+	border-color: #4d90fe;
+}
+
+.pac-container {
+	font-family: Roboto;
+}
+
+#type-selector {
+	color: #fff;
+	background-color: #4d90fe;
+	padding: 5px 11px 0px 11px;
+}
+
+#type-selector label {
+	font-family: Roboto;
+	font-size: 13px;
+	font-weight: 300;
+}
+
+.remove-ticket, .remove-child{
+	display:flex;
+	margin-top:50%;
+	color:red;	
+}
+
+.remove-ticket, .remove-child, .remove-coupon{
+	display:flex;
+	margin:25% 50%;
+	color:red;	
+}
+
+.event-list a.event-title-a{
+	color:black;
+}
+
+.order-list a{
+	color:black;
+}
+
+.vehicle-list a{
+	color:black;
+}
+
+.brand-list a{
+	color:black;
+}
+
+.helper-hover a{
+	color:#337ab7;	
+}
+
+.photo-list .thumbnail{position:relative;}
+.hoverContainer{position:absolute;top:50%;left:35%;margin:0 auto;}
+.featured{position:absolute;top:0;right:0;}
