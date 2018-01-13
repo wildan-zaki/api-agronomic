@@ -19,6 +19,6 @@
 	public function CancelBooking($where){
 		$this->db->where('forderid',$where);
 		$this->db->delete('t_claimedproduct');
-	} 
+	}   
 }
 ?>
